@@ -6,6 +6,7 @@ import urllib.request
 import os
 
 import custom_transformers  # Important! Keeps your pipeline stable
+from custom_transformers import BaseEstimator, TransformerMixin
 
 # === Function to download model files from Google Drive ===
 @st.cache_resource
